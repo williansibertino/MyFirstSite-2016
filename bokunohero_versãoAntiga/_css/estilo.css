@@ -1,0 +1,239 @@
+@charset "utf-8";
+@import url(https://fonts.googleapis.com/css?family=Contrail+One);
+@import url(https://fonts.googleapis.com/css?family=Bangers);
+
+@font-face{
+    font-family: 'Fonte-Sub';
+    src: url("../_fontes/bubblegum-sans-regular.otf");
+}
+
+body{
+/*    background-color: #333636;*/
+    font-family: 'Contrail One', cursive;
+    background: url("../_imagens/fundo-site.jpg");
+    /*#4b198f*/
+}
+
+p{
+    text-align: justify;
+    text-indent: 50px;
+}
+
+p1{
+    text-align: center;
+}
+
+a{
+    color: #333636;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+/* Formatação da Interface */
+div#interface{
+    max-width: 960px;
+    margin: -20px auto 100px auto;
+    background-color: #a4aaaf;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+    padding: 10px 15px 10px 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+/* Formatação do Cabeçalho */
+
+header#cabecalho img#icone1{
+    position: absolute;
+    left: 990px;
+    top: 40px;
+}
+
+header#cabecalho img#icone2{
+    position: relative;
+    left: 28px;
+    top: 148px;
+}
+
+header#cabecalho{
+    margin-left: -15px;
+    width: 980px;
+    max-height: 500px; 
+    background: url("../_imagens/Boku_no__Hero__Academia_full_fundo.jpg") center;
+    border: #333636 solid 5px;
+    border-radius: 5px 5px 10px 10px;
+}
+
+header#cabecalho h1{
+    font-family: 'Bangers', cursive;
+    color: #ff4200;
+    font-size: 40pt;
+    text-shadow: 4px 4px 4px black;
+    text-align: center;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+header#cabecalho h2{
+    font-family: 'Contrail One', cursive;
+    font-size: 25pt;
+    text-indent: 60px;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+    color: #f5031a;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+/* Formatação do Menu */
+
+nav#menu ul{
+    font-size: 14pt;
+    list-style: none;
+    text-transform: uppercase;
+    position: relative;
+    margin-top: 143px;
+    margin-left: -25px;
+}
+
+nav#menu li{
+    font-family: 'fonte-sub',sans-serif;
+    display: inline-block;
+    background-color: #af0d0d;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;
+    border-bottom: 3px solid #333636;
+    border-radius: 15px/40px;
+    box-shadow: 2px 5px 15px rgba(0,0,0,0.8);
+}
+
+nav#menu h1{
+    display: none;
+}
+
+nav#menu li:hover{
+    background-color: #ff4200;
+    transition: background-color 0.5s;
+}
+
+nav#menu a{
+    color: #f3c81e;
+    text-decoration: none;
+}
+
+nav#menu a:hover{
+    color:#ffffff;
+    text-decoration: underline;
+}
+
+/* Formatação da Interface pagina */
+
+section#corpo{
+    display: block;
+    width: 600px;
+    float:left;
+    border-right: 1px solid #333636;
+    padding-right: 15px;
+}
+
+section#corpo p{
+    text-align: justify;
+}
+/* Titulos */
+article#noticia-principal h2{
+    font-size: 13pt;
+    color: white;
+    background-color: #333636;
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0px 10px 0px;
+    border-radius: 5px;
+}
+
+.sub-titulo{
+    font-family: trebuchet ms, sans-serif;
+}
+
+article#noticia-principal h4{
+    font-size: 12pt;
+    color: white;
+    text-align: center;
+    background-color: #333633;
+    padding: 4px;
+    border-radius: 5px;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+
+header#cabecalho-artigo h1{
+    font-family: 'Fonte-sub',sans-serif;
+    font-size: 21pt;
+    color: #af0d0a;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+}
+
+header#cabecalho-artigo h2{
+    font-size: 13pt;
+    color: #606060;
+    background-color: #a4aaaf;
+    margin-top: -5px;
+}
+
+header#cabecalho-artigo h3{
+    font-size: 12pt;
+    color: #333636;
+}
+
+.direita{
+    text-align: right;
+    border-bottom: 1px solid #333636;
+    margin-top: 5px;
+    padding-bottom: 15px;
+}
+
+.esquerda{
+    margin-top: 30px;
+}
+/* Titulos */
+aside#lateral{
+    display: block;
+    width: 330px;
+    float: right;
+    padding-left: 0px;
+    padding-top: 10px;
+}
+
+aside#lateral h1{
+    font-family: 'Fonte-sub',sans-serif;
+    font-size: 20pt;
+    color: #af0d0a;
+    margin-top: 20px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+}
+
+aside#lateral h2{
+    background-color: #333636;
+    font-size: 13pt;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+footer#rodape{
+    clear: both;
+    border-top: 1px solid black;
+}
+
+footer#rodape p{
+    text-align: center;
+}
+
+script#posicao function{
+    position: relative;
+}

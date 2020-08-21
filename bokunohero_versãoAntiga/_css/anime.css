@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+div#anime article#temporada h1{
+    margin-top: 50px;
+    margin-bottom: 25px;
+    padding: 15px;
+    background-color: #333636;
+    border-radius: 15px 15px 5px 5px;
+    border-bottom: 5px solid #f3c81e;
+    font-family: 'fonte-sub';
+    color: #f3c81e;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+div#episodio{
+    width: 450px;
+    margin-left: 19px;
+    background-color: #f3c81e;
+    border-radius: 20px;
+    padding: 25px;
+    border: 3px solid #333636;
+}
+
+div#episodio h2{
+    font-family: 'fonte-sub';
+    color: #333636;
+    font-size: 13pt;
+    padding: 20px;
+    background-color: #ff4200;
+    margin: -26px -25px 20px -25px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+div#episodio img.fundo{
+    margin-left: 70px;
+    border-radius: 5px;
+}

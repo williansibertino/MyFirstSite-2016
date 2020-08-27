@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @font-face{
     font-family: 'Fonte-Sub';
-    src: url("../_fontes/bubblegum-sans-regular.otf");
+    src: url("../fontes/bubblegum-sans-regular.otf");
 }
 ul#album-fotos {
     max-width: 700px;
@@ -42,7 +42,7 @@ ul#album-fotos li:hover span{
     opacity: 1;
 }
 ul#album-fotos li#foto01{
-    background: url("../_imagens/galeria-01.jpg") no-repeat;
+    background: url("../imagens/galeria-01.jpg") no-repeat;
     background-position: 50% 50%;
     background-size: 400px 400px;
     background-color: #ffffff;
@@ -52,7 +52,7 @@ ul#album-fotos li#foto01:hover{
     background-size: 200px 200px;
 }
 ul#album-fotos li#foto02{
-    background: url("../_imagens/galeria-02.jpg");
+    background: url("../imagens/galeria-02.jpg");
     background-position: 50% 50%;
     background-size: 225px 350px;
 }
@@ -62,7 +62,7 @@ ul#album-fotos li#foto02:hover{
 }
 
 ul#album-fotos li#foto03{
-    background: url("../_imagens/galeria-03.jpg");
+    background: url("../imagens/galeria-03.jpg");
     background-position: 50% 50%;
     background-size: 400px 537px;
     background-color: #ffffff;
@@ -72,7 +72,7 @@ ul#album-fotos li#foto03:hover{
     background-size: 149px 200px;
 }
 ul#album-fotos li#foto04{
-    background: url("../_imagens/galeria-04.jpg") no-repeat;
+    background: url("../imagens/galeria-04.jpg") no-repeat;
     background-position: 50% 50%;
     background-size: 400px 564px;
     background-color: #ffffff;
@@ -82,7 +82,7 @@ ul#album-fotos li#foto04:hover{
     background-size: 142px 200px;
 }
 ul#album-fotos li#foto05{
-    background: url("../_imagens/galeria-05.jpg");
+    background: url("../imagens/galeria-05.jpg");
     background-position: 50% 50%;
     background-size: 500px 313px;
     background-color: #ffffff;
@@ -94,7 +94,7 @@ ul#album-fotos li#foto05:hover{
 }
 
 ul#album-fotos li#foto06{
-    background: url("../_imagens/galeria-06.jpg") no-repeat;
+    background: url("../imagens/galeria-06.jpg") no-repeat;
     background-position: 50% 50%;
     background-size: 400px 568px;
     background-color: #ffffff;
@@ -106,7 +106,7 @@ ul#album-fotos li#foto06:hover{
 }
 
 ul#album-fotos li#foto07{
-    background: url("../_imagens/galeria-07.png") no-repeat;
+    background: url("../imagens/galeria-07.png") no-repeat;
     background-position: 50% 50%;
     background-size: 400px 400px;
     background-color: #ffffff;
@@ -118,7 +118,7 @@ ul#album-fotos li#foto07:hover{
 }
 
 ul#album-fotos li#foto08{
-    background: url("../_imagens/galeria-08.jpg");
+    background: url("../imagens/galeria-08.jpg");
     background-position: 50% 50%;
     background-size: 500px 351px;
     background-color: #ffffff;
@@ -130,7 +130,7 @@ ul#album-fotos li#foto08:hover{
 }
 
 ul#album-fotos li#foto09{
-    background: url("../_imagens/galeria-09.jpg");
+    background: url("../imagens/galeria-09.jpg");
     background-position: 50% 50%;
     background-size: 500px 281px;
     background-color: #ffffff;
@@ -142,7 +142,7 @@ ul#album-fotos li#foto09:hover{
 }
 
 ul#album-fotos li#foto10{
-    background: url("../_imagens/galeria-10.jpg");
+    background: url("../imagens/galeria-10.jpg");
     background-position: 50% 50%;
     background-size: 500px 260px;
     background-color: #ffffff;
@@ -154,7 +154,7 @@ ul#album-fotos li#foto10:hover{
 }
 
 ul#album-fotos li#foto11{
-    background: url("../_imagens/galeria-11.jpg");
+    background: url("../imagens/galeria-11.jpg");
     background-position: 50% 50%;
     background-size: 500px 281px;
     background-color: #ffffff;
@@ -166,7 +166,7 @@ ul#album-fotos li#foto11:hover{
 }
 
 ul#album-fotos li#foto12{
-    background: url("../_imagens/galeria-12.jpg");
+    background: url("../imagens/galeria-12.jpg");
     background-position: 50% 50%;
     background-size: 500px 281px;
     background-color: #ffffff;
@@ -178,7 +178,7 @@ ul#album-fotos li#foto12:hover{
 }
 
 ul#album-fotos li#foto13{
-    background: url("../_imagens/galeria-13.png");
+    background: url("../imagens/galeria-13.png");
     background-position: 50% 50%;
     background-size: 350px 219px;
     background-color: #ffffff;
@@ -190,7 +190,7 @@ ul#album-fotos li#foto13:hover{
 }
 
 ul#album-fotos li#foto14{
-    background: url("../_imagens/galeria-14.jpg") no-repeat;
+    background: url("../imagens/galeria-14.jpg") no-repeat;
     background-position: 50% 50%;
     background-size: 300px 509px;
     background-color: #ffffff;
@@ -202,7 +202,7 @@ ul#album-fotos li#foto14:hover{
 }
 
 ul#album-fotos li#foto15{
-    background: url("../_imagens/galeria-15.png");
+    background: url("../imagens/galeria-15.png");
     background-position: 50% 50%;
     background-size: 400px 200px;
     background-color: #ffffff;

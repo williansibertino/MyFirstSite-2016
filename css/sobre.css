@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @font-face{
     font-family: 'Fonte-Sub';
-    src: url("../_fontes/bubblegum-sans-regular.otf");
+    src: url("../fontes/bubblegum-sans-regular.otf");
 }
 
 article#texto h4{

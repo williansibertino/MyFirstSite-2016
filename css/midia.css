@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 audio#musica{
-    background: url(../_imagens/fundo-foto.jpg);
+    background: url(../imagens/fundo-foto.jpg);
     padding: 5px;
     border-radius: 15px;
     border: 5px solid #f3c81e;

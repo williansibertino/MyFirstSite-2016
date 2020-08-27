@@ -1,0 +1,24 @@
+@charset "UTF-8";
+@font-face{
+    font-family: 'Fonte-Sub';
+    src: url("../_fontes/bubblegum-sans-regular.otf");
+}
+
+article#texto h4{
+    background: none;
+    color: #333633;
+    font-family: 'fonte-sub',sans-serif;
+    font-size: 25pt;
+    margin-bottom: auto;
+}
+
+article#texto p{
+    padding: 0px 20px 0px 20px;
+    text-align: center;
+    text-indent: 0px;
+}
+
+article#texto img{
+    position:relative;
+    margin: 0px auto 10px 330px;
+}

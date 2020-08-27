@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+article#volumes img#capa-volume{
+    margin-right: 7px;
+    border: 3px solid #333636;
+    border-radius: 5px;
+    float: left;
+}
+
+article#volumes h1{
+    font-family: 'fonte-sub';
+    text-align: center;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+    background-color: #333636;
+    border-bottom: 4px solid #f3c81e; 
+    padding: 5px;
+    border-radius: 5px;
+    color: #f3c81e;
+    text-indent: 10px;
+}
+
+article#volumes h2{
+    font-family: 'fonte-sub';
+    font-weight: 400;
+    background: none;
+    color: #333636;
+    font-size: 12pt;
+    margin-right: auto;
+    margin-top: -5px;
+    text-align-last: justify;
+}
+
+article#volumes h2.topo{
+    margin-top: 0px;
+}
+
+article#volumes h2.borda-9{
+    margin-bottom: -6px;
+}
+
+article#volumes h2.borda-9_7{
+    margin-bottom: -17px;
+}
+
+article#volumes a{
+    font-family: Arial,sans-serif;
+    font-size: 12pt;
+}
+
+article#volumes a:hover{
+    color: #ffffff;
+}
+
+article#volumes h3{
+    font-family: 'fonte-sub';
+    color: #f3c81e;
+    font-weight: 500;
+    text-indent: 20px;
+    background-color: #333636;
+    padding: 5px;
+    margin-right: -5px;
+    border-radius: 5px;
+    border-bottom: 5px solid #f3c81e;
+}
+
+article#volumes h3.borda-7{
+    margin-top: 100px;
+}
+
+article#volumes h3.borda-10{
+    margin-top: -5px;
+}
+
+article#volumes h3.borda-9{
+    margin-top: 42px;
+}
+
+article#volumes a.download{
+    color: #ffffff;
+}
+
+article#volumes a.download:hover{
+    color: #f3c81e;
+}
+
+article#volumes span{
+    font-family: Arial,sans-serif;
+    color: #ffffff;
+}
+
+article#volumes h4{
+    background: #f3c81e ;
+    padding: 3px;
+    margin: 30px -5px 8px 0px;
+    border: 2px solid #333636;
+}
